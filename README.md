@@ -1,5 +1,7 @@
 # Brave Search MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@arben-adm/brave-mcp-search)](https://smithery.ai/server/@arben-adm/brave-mcp-search)
+
 This project implements a Model Context Protocol (MCP) server for Brave Search, allowing integration with AI assistants like Claude.
 
 ## Prerequisites
@@ -9,6 +11,15 @@ This project implements a Model Context Protocol (MCP) server for Brave Search, 
 
 ## Installation
 
+### Installing via Smithery
+
+To install Brave Search MCP server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@arben-adm/brave-mcp-search):
+
+```bash
+npx -y @smithery/cli install @arben-adm/brave-mcp-search --client claude
+```
+
+### Manual Installation
 1. Clone the repository:
    ```
    git clone https://github.com/your-username/brave-search-mcp.git
